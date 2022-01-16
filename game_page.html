@@ -1,0 +1,53 @@
+<html><head>
+    <title>
+        Maths game
+    </title>
+    <link href="game_page.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="game_page.js"> </script>    
+</head>
+<body>
+    <h4 id="player1_name" style="user-select: auto;"> </h4>
+    <span id="player1_score" style="user-select: auto;">0</span>
+    <br style="user-select: auto;">
+    <h4 id="player2_name" style="user-select: auto;"> </h4>
+    <span id="player2_score" style="user-select: auto;">0</span>
+    <center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <img src="90622-avatar-26.gif" alt="avatar" id="avatar">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div id="output" class="col-lg-6" style="user-select: auto;"> <h4 id="answer_multi">    
+        Answer is: 
+    </h4>
+</div> 
+<br>
+<br>
+<br>
+<h4> Number 1 </h4>
+<br>
+<input type="text" id="number1" class="form-control" placeholder="Number 1" style="user-select: auto;">
+<br>
+<h4> Number 2 </h4>
+<br>
+<br>
+<input type="text" id="number2" class="form-control" placeholder="Number 2" style="user-select: auto;">
+<br>
+<br>
+<br>
+
+<button id="button_submit" onclick="send()" class="btn btn-primary"> Send </button>
+
+</center>
+
+</body></html>
